@@ -54,12 +54,4 @@ class Chicagodata():
             .apply(lambda x: float(re.findall(r'[-+]?\d*\.\d+|\d+', str(x))[0]) + mesh/2)
 
         data_agg.to_csv('./data/chicago-crime-preprocessed.csv', index=False)
-
-class Chicagomodel():
     
-
-
-    
-    
-    
-
