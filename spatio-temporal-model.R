@@ -6,11 +6,6 @@ library(gstat)
 library(INLA)
 library(broom)
 
-# Need to fill the non-existent rows
-options(max.print = 20)
-
-setwd("C:/Users/gouwenss/programming/ander-project/")
-
 weekend_day = c('Friday', "Saturday", "Sunday")
 
 ### Loading Chicago crime data (preprocessed in Python)
